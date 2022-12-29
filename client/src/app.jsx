@@ -1,11 +1,15 @@
 import React from 'react';
-import PostCreate from './screens/PostCreate';
+import PostCreate from './components/PostCreate';
+import PostList from './components/PostList';
 
 function App() {
   return (
     <div className="container">
       Something something
       <PostCreate />
+      <br />
+      <hr />
+      <PostList />
     </div>
   );
 }
